@@ -3,7 +3,8 @@
 # Load normalized gene counts 
 norm_gene_counts <- read.delim('path/to/file')
 
-# Load metadata and make design matrix 
+# Load metadata and make design matrix
+library(readxl)
 metadata<-as.data.frame(read_xlsx('path/to/metadata/SI_table_1', skip = 1, col_names = T))
 d_matrix <- model.matrix(~ metadata$Sex + metadata$`Chronological age`, metadata$`Hurricane exposure`, metadata$`RNA quality score`)
 
