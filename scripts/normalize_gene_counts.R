@@ -1,8 +1,7 @@
 ### Normalize raw gene counts
 
 # Load read counts 
-gene_counts <- read.delim('path/to/gene_counts.csv',
-            sep = ",")
+gene_counts <- read.delim('path/to/gene_counts.csv',sep = '\t')
 rownames(gene_counts)<-gene_counts$X
 gene_counts$X<-NULL
 
