@@ -1,7 +1,7 @@
 ### Normalize raw gene counts
 
 # Load read counts 
-gene_counts <- read.delim("~/Documents/_UW/_SMackLab/Hurricane/Github/data/gene_counts.csv",
+gene_counts <- read.delim('path/to/gene_counts.csv',
             sep = ",")
 rownames(gene_counts)<-gene_counts$X
 gene_counts$X<-NULL
