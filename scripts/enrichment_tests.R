@@ -1,4 +1,6 @@
 ### Enrichment analyses
+library(tidyverse)
+library(readxl)
 
 # Load metadata
 metadata<-as.data.frame(read_xlsx('path/to/metadata/SI_table_1', skip = 1, col_names = T))
