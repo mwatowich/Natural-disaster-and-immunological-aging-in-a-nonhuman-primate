@@ -1,10 +1,10 @@
 ### Enrichment analyses
 
 # Load metadata
-metadata<-as.data.frame(read_xlsx('~/Downloads/PNAS_202121663_s2.xlsx', skip = 1, col_names = T))
+metadata<-as.data.frame(read_xlsx('path/to/metadata/SI_table_1', skip = 1, col_names = T))
 
 # Load model results
-rna_mod_out<-as.data.frame(read_xlsx('~/Downloads/PNAS_202121663_s3.xlsx', skip = 1, col_names = T))
+rna_mod_out<-as.data.frame(read_xlsx('path/to/metadata/SI_table_2', skip = 1, col_names = T))
 
 
 ## Fishers Exact Test of overlap between age and hurricane exposure effects
