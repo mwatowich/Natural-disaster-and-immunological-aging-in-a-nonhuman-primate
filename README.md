@@ -34,7 +34,7 @@ scripts/enrichment_tests.R
 
 4. Estimate transcriptomic age from human data.
 
-	[Please see] (https://github.com/smacklab/cayo_santiago_immune_aging_review/blob/master/scripts/rna_human_comparison.R)
+	Please see (https://github.com/smacklab/cayo_santiago_immune_aging_review/blob/master/scripts/rna_human_comparison.R)
 
 
 5. Finally, use single cell data generated from PBMCs in rhesus macaques to identify top marker genes of immune cells.
