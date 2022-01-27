@@ -30,6 +30,7 @@ scripts/normalize_gene_counts.R
 ```
 scripts/rnaseq_linear_modeling.R
 scripts/enrichment_tests.R
+scripts/PCA.R
 ```
 
 4. Estimate transcriptomic age from human data.
